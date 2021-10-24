@@ -217,10 +217,7 @@ void simplefs_dump(){
             }
             printf("\n");
         }     
-        else {
-            printf("not correct at %d, got %d \n", i, inode->status);
-            printf("%d %d \n", INODE_IN_USE, INODE_FREE);
-        }
+
     }
     free(inode);
     free(superblock);

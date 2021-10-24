@@ -36,8 +36,8 @@ Writing Data: 0
 Creating file 7_.txt: 7
 Writing Data: 0
 Writing Data: 0
-Writing Data: 0
-Writing Data: 0
+Writing Data: -1
+Writing Data: -1
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DISK STATE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 DISK NAME: simplefs
 INODE FREELIST:	1	1	1	1	1	1	1	1	
@@ -79,6 +79,13 @@ DATA BLOCK 3: !-----------------------64 Bytes of Data-----------------------!
 
 INODE 5
 STATUS:	1	NAME	5_.txt	SIZE	256	DATABLOCK	20	21	22	23	
+DATA BLOCK 0: !-----------------------64 Bytes of Data-----------------------!
+DATA BLOCK 1: !-----------------------64 Bytes of Data-----------------------!
+DATA BLOCK 2: !-----------------------64 Bytes of Data-----------------------!
+DATA BLOCK 3: !-----------------------64 Bytes of Data-----------------------!
+
+INODE 6
+STATUS:	1	NAME	6_.txt	SIZE	256	DATABLOCK	24	25	26	27	
 DATA BLOCK 0: !-----------------------64 Bytes of Data-----------------------!
 DATA BLOCK 1: !-----------------------64 Bytes of Data-----------------------!
 DATA BLOCK 2: !-----------------------64 Bytes of Data-----------------------!
