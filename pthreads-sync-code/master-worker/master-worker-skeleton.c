@@ -4,9 +4,10 @@
 #include <string.h>
 #include <errno.h>
 #include <signal.h>
-#include <wait.h>
+#include <sys/wait.h>
 #include <pthread.h>
 
+//
 int item_to_produce, curr_buf_size;
 int cur_consumed;
 int total_items, max_buf_size, num_workers, num_masters;

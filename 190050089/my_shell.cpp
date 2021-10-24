@@ -107,7 +107,8 @@ void execute_command(vector<string> & tokens, bool parallel = false){
             }
             path_s += " " + tokens[i];
         }
-
+// ok
+// hmm
         if (!multiple_correct){
             cout << "Shell: cd has too many arguments" << endl; // if multiple correct failed then too many arguments without \ separator
             return;
